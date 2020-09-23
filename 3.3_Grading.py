@@ -20,8 +20,8 @@ sem = int(input("What is your Semester Grade:"))
 print()
 final = int(input("What is your Final Exam Grade:"))
 print()
-exam = float(input("What is your Final Exam Worth (decimal):"))
-sem_w = 1-exam
-over = (sem*sem_w)+(final*exam)
+final_w = float(input("What is your Final Exam Worth (decimal):"))
+sem_w = 1-final_w
+over = (sem*sem_w)+(final*final_w)
 print()
 print("Your final grade will be", over)
