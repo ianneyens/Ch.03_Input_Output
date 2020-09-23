@@ -5,18 +5,18 @@
 # 1.) Write a program that asks someone for their name and then prints a greeting that uses their name.
 '''
 print()
-name=str(input("What is your name?:"))
+name = str(input("What is your name?:"))
 print()
 print("Hello", name)
 '''
 # 2. Write a program where a user enters a base and height and you print the area of a triangle.
 '''
 print()
-print("Welcome to the are of a triangle calculator")
+print("Welcome to the area of a triangle calculator")
 print()
-base=float(input("Enter a base:"))
+base = float(input("Enter a base:"))
 print()
-height=float(input("Enter a height:"))
+height = float(input("Enter a height:"))
 print()
 print(.5*base*height)
 '''
@@ -25,7 +25,7 @@ print(.5*base*height)
 print()
 print("Welcome to the circumference calculator")
 print()
-radius=float(input("Enter a radius:"))
+radius = float(input("Enter a radius:"))
 print()
 print(2*3.14*radius)
 '''
@@ -34,9 +34,9 @@ print(2*3.14*radius)
 print()
 print("Welcome to the square root calculator")
 print()
-num=float(input("Please enter a number:"))
+num = int(input("Please enter a number:"))
 print()
-sqrt=(num**.5)
+sqrt = (num**.5)
 print("The square root of", num, "is", sqrt)
 '''
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
