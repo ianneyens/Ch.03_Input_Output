@@ -16,5 +16,5 @@ In: -40  Out: -40 Please tell me what this output is!
 print()
 print("Welcome to the Fahrenheit-Celsius Converter")
 print()
-cel=float(input("Please enter a temperature in Fahrenheit:"))
+cel = float(input("Please enter a temperature in Fahrenheit:"))
 print("Your temperature in Celsius is", (cel-32)*5/9)
