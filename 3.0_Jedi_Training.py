@@ -3,7 +3,7 @@
 
 
 # 1.) Write a program that asks someone for their name and then prints a greeting that uses their name.
-'''
+"""
 print()
 name = str(input("What is your name?:"))
 print()
@@ -49,4 +49,4 @@ acc=float(input("Please enter acceleration:"))
 print()
 print("The force is", mass*acc)
 print("Get it?")
-'''
+"""
